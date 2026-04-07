@@ -1,6 +1,11 @@
 import React, { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import capoArchitectoSvg from "../assets/Il-capo-architetto.svg";
+import silhouette1269851278Svg from "../assets/1269851278.svg";
+import manSilhouetteSvg from "../assets/liftarn_Silhouette_of_a_man.svg";
+import menInBlackSilhouetteSvg from "../assets/radacina_men_in_black_1.svg";
+import moneybagSvg from "../assets/moneybag.svg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -57,10 +62,10 @@ export function InternetHistoryPage() {
   const era1WirePathRef = useRef<SVGPathElement | null>(null);
   const era1SilhouetteRefs = useRef<SVGImageElement[]>([]);
   const era1SilhouetteAssets = [
-    "/src/assets/Il-capo-architetto.svg",
-    "/src/assets/1269851278.svg",
-    "/src/assets/liftarn_Silhouette_of_a_man.svg",
-    "/src/assets/radacina_men_in_black_1.svg",
+    capoArchitectoSvg,
+    silhouette1269851278Svg,
+    manSilhouetteSvg,
+    menInBlackSilhouetteSvg,
   ];
 
   const era2Ref = useRef<HTMLElement | null>(null);
@@ -650,7 +655,7 @@ export function InternetHistoryPage() {
             top: "-220px",
           }}
         >
-          <img src="/src/assets/moneybag.svg" alt="Rappelling bettor" style={{ width: "80px" }} />
+          <img src={moneybagSvg} alt="Rappelling bettor" style={{ width: "80px" }} />
         </div>
         <div
           ref={rightFigureRef}
@@ -662,7 +667,7 @@ export function InternetHistoryPage() {
             transformOrigin: "center",
           }}
         >
-          <img src="/src/assets/moneybag.svg" alt="Rappelling bettor mirrored" style={{ width: "80px" }} />
+          <img src={moneybagSvg} alt="Rappelling bettor mirrored" style={{ width: "80px" }} />
         </div>
 
         <div className="relative z-[2] flex h-full flex-col items-center justify-center px-6 text-center">
