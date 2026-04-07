@@ -1,0 +1,349 @@
+PAGE: "The House Always Changed"
+A scrollytelling history of how sports betting went from back alleys 
+to billion-dollar legitimacy
+
+VISUAL LANGUAGE:
+- Background: deep charcoal (#0d0d0d)
+- Accent: electric green (#00ff87) and gold (#ffd700)
+- Secondary: muted red (#c0392b) for the prohibition/illegal era
+- Typography: bold, editorial. Mix of serif (headlines) and 
+  mono (stats/numbers)
+- A persistent "betting slip" graphic runs down the right edge —
+  as the user scrolls, new "lines" fill in on the slip, 
+  representing each era unlocking
+- Odds format in the corner ticks and updates each era like 
+  a live odds board
+
+===============================================================
+SECTION 1 — Hero (0vh to 100vh)
+===============================================================
+LAYOUT: Full viewport. Dark background. Center text.
+
+  [0%]   Page loads. Odds board in background, all dashes: 
+         "--- vs ---   EVEN"
+         flickering like an old airport departures board
+  [15%]  Headline slams in (fast scale: 1.2 → 1): 
+         "The House Always Changed"
+  [30%]  Subheadline fades up:
+         "Sports betting didn't go mainstream overnight. 
+         It took a century of back rooms, federal battles, 
+         and one Supreme Court decision."
+  [50%]  Odds board in background flickers and resolves to:
+         "SPORTS BETTING (USA)   -110"
+  [65%]  Small label appears: "A history in six eras"
+  [80%]  Scroll prompt appears: "Start the clock ↓"
+  [100%] Hero parallaxes upward. Background darkens to near black.
+         Next section rises over it.
+
+===============================================================
+SECTION 2 — PIN: Era 1 — The Bookmaker Era (1900–1950) (100vh–350vh)
+===============================================================
+LAYOUT: Pinned. Left = large sepia-toned illustrated scene 
+(drawn in SVG — a smoke-filled room, a chalkboard with odds). 
+Right = copy. Background: dark brown (#1a0f00)
+
+  PIN BEGINS, holds for 250vh
+
+  [0%]   Era label top-left crossfades in: "ERA 01 / THE BACK ROOM"
+         Betting slip right edge: first line fills in — 
+         "1919 / World Series / ???"
+         
+         Step 1 animates in:
+         Headline: "Before Vegas, there were bookmakers."
+         Body: "In the early 1900s, sports betting was everywhere 
+         and nowhere at once — illegal in most states, tolerated 
+         in practice. Bookmakers operated out of barbershops, 
+         saloons, and phone exchanges. The odds lived in 
+         a man's head and on a chalkboard."
+         Visual: Chalkboard SVG draws itself — 
+         "NYG -3 / CHI +3" written in chalk style
+
+  [33%]  Step 2 animates in:
+         Headline: "1919. The Black Sox Scandal."
+         Body: "Eight Chicago White Sox players are accused of 
+         intentionally losing the World Series in exchange 
+         for money from a gambling syndicate. 
+         Baseball is nearly destroyed. 
+         Betting goes further underground."
+         Visual: Eight silhouettes appear, one by one, 
+         then an X draws through them
+         Betting slip: line glows red — "FIXED"
+
+  [66%]  Step 3 animates in:
+         Headline: "The Wire Services. Betting gets organized."
+         Body: "By the 1930s, the mob runs a national wire 
+         service delivering race results faster than radio. 
+         Bookmakers pay a subscription fee. 
+         It's the first sports data business — 
+         it just happened to be criminal."
+         Visual: A network of telephone wires animates 
+         across the US map outline (SVG lines drawing city to city)
+
+  [100%] PIN RELEASES. Scene fades. Background shifts to 
+         deep red (#1a0000) — prohibition energy.
+         Betting slip: Era 1 lines complete, green checkmark
+
+===============================================================
+SECTION 3 — Transition Beat (350vh to 400vh)
+===============================================================
+
+  [0%–100%] Single stat slams in center screen, counts up:
+            "$20,000,000"
+            Label beneath: "estimated illegal bets placed 
+            on the 1919 World Series"
+            Fades out as next section scrolls in.
+
+===============================================================
+SECTION 4 — PIN: Era 2 — Las Vegas (1950–1990) (400vh–650vh)
+===============================================================
+LAYOUT: Pinned. Background shifts to neon-lit dark — 
+deep navy with neon pink/gold accents. 
+Left = animated neon sign SVG ("SPORTS BOOK" flickering on).
+Right = copy.
+
+  PIN BEGINS, holds for 250vh
+
+  [0%]   Era label: "ERA 02 / VIVA LAS VEGAS"
+         Neon sign SVG flickers and buzzes on, letter by letter:
+         "S-P-O-R-T-S   B-O-O-K"
+         Betting slip: new line fills — "1950 / Las Vegas / OPEN"
+
+         Step 1:
+         Headline: "Nevada legalizes sports betting. 1949."
+         Body: "While the rest of America criminalizes gambling, 
+         Nevada goes the other way. The Stardust opens 
+         the first major race and sports book. 
+         For 60 years, if you wanted to bet legally, 
+         you had one option: get on a plane."
+         Visual: US map — single dot glows gold on Nevada. 
+         All other states dark.
+
+  [33%]  Step 2:
+         Headline: "The point spread changes everything."
+         Body: "Chicago math teacher Charles McNeil invents 
+         the point spread in the 1940s. Suddenly every game 
+         is theoretically 50/50. The bookmaker's edge 
+         becomes the vig — and it's genius."
+         Visual: A simple game line animates in:
+         "DAL  -7  vs  NYG  +7   O/U 44.5"
+         Each element highlights as it's explained
+
+  [66%]  Step 3:
+         Headline: "1961. The Wire Act. The federal government 
+         draws a line."
+         Body: "JFK's DOJ, targeting the mob, passes the 
+         Interstate Wire Act — making it illegal to use 
+         wire communications for sports betting across 
+         state lines. The mob loses its wire service. 
+         Vegas tightens its monopoly."
+         Visual: A red line draws across the US map. 
+         State borders highlight one by one.
+
+  [100%] PIN RELEASES. Neon sign flickers off.
+         Background shifts back to charcoal.
+         Stat beat: "For 4 decades, Nevada handled 
+         nearly all legal sports bets in America."
+
+===============================================================
+SECTION 5 — Transition Beat (650vh to 700vh)
+===============================================================
+
+  Center screen, large mono text fades in:
+  "Then came the internet.
+  And everything the Wire Act was built to prevent
+  — became possible from your couch."
+
+===============================================================
+SECTION 6 — Horizontal Scroll: The Online Era (700vh–950vh)
+===============================================================
+LAYOUT: Pinned. 5 panels scroll horizontally left to right.
+Background: dark with subtle matrix-style falling numbers
+
+  PIN BEGINS, holds for 250vh
+
+  PANEL 1 — "1996. The First Online Sportsbook"
+    Visual: A pixelated browser window renders — 
+    Intertops.eu goes live. First legal online bet accepted.
+    Body: "A site built in Antigua takes the first legal 
+    online sports bet. The laws haven't caught up yet."
+    Stat: "First bet: $50 on Green Bay Packers"
+
+  PANEL 2 — "2006. UIGEA. The US Tries to Shut It Down."
+    Visual: A red BLOCKED stamp animates over a browser window
+    Body: "The Unlawful Internet Gambling Enforcement Act 
+    makes it illegal for banks to process online gambling 
+    payments. Dozens of sites exit the US market overnight."
+    Stat counter: "32 — offshore sites that went dark 
+    in 72 hours"
+
+  PANEL 3 — "The Offshore Era"
+    Visual: Globe with pulsing dots — Antigua, Malta, 
+    Gibraltar, Isle of Man
+    Body: "Bovada. BetOnline. MyBookie. American bettors 
+    don't stop — they just go offshore. Billions flow 
+    out of the US economy annually into unregulated markets."
+    Stat: "$150B+ bet illegally per year in the US"
+
+  PANEL 4 — "2009. In-Play Betting Goes Mainstream."
+    Visual: A live game ticker animates — odds shifting 
+    in real time as score changes
+    Body: "European books crack live betting. 
+    Odds move in real time. Bettors can now react 
+    to what's happening on the field — mid-game, 
+    mid-drive, mid-at-bat."
+    Stat: "Live betting now accounts for 70%+ of 
+    handle at major European books"
+
+  PANEL 5 — "The data arms race begins."
+    Visual: Data streams, APIs, satellite uplinks illustrated
+    Body: "Who has the fastest data feed wins. 
+    Milliseconds matter. The sports data industry 
+    — companies like Genius Sports — is born to 
+    feed the beast."
+    Genius Sports callout: subtle gold highlight 
+    on "Genius Sports"
+
+  [100%] PIN RELEASES. Scroll resumes vertically.
+
+===============================================================
+SECTION 7 — PIN: Era 3 — PASPA & The Supreme Court 
+(950vh–1200vh)
+===============================================================
+LAYOUT: Pinned. Courtroom energy — dark wood tones, 
+stark lighting. 
+Left = animated gavel SVG. Right = copy.
+This is the climax of the story.
+
+  PIN BEGINS, holds for 250vh
+
+  [0%]   Era label: "ERA 03 / THE CASE THAT CHANGED EVERYTHING"
+         Gavel SVG drops in slow motion, boom sound implied 
+         by screen shake on impact (subtle CSS shake)
+         
+         Step 1:
+         Headline: "1992. PASPA passes. 
+         The federal ban is official."
+         Body: "The Professional and Amateur Sports 
+         Protection Act effectively bans sports betting 
+         in every state except Nevada, Oregon, Delaware, 
+         and Montana. The leagues lobby hard for it. 
+         They call betting an existential threat to 
+         the integrity of sport."
+         Visual: US map goes dark state by state, 
+         only Nevada stays lit gold
+
+  [33%]  Step 2:
+         Headline: "New Jersey decides to fight."
+         Body: "2011. Governor Chris Christie signs a law 
+         legalizing sports betting in New Jersey. 
+         The NCAA and major pro leagues immediately sue. 
+         It takes 7 years. New Jersey loses twice 
+         before the Supreme Court agrees to hear it."
+         Visual: NJ state outline pulses red, 
+         then a gavel icon appears — 
+         "NCAA v. Murphy — SCOTUS — 2018"
+
+  [66%]  Step 3 — the climax:
+         Headline: "May 14, 2018."
+         Body: "The Supreme Court strikes down PASPA 6–3. 
+         Justice Samuel Alito writes the opinion. 
+         Sports betting is not federally banned — 
+         states can decide for themselves."
+         Visual: US map — states light up gold one by one, 
+         spreading outward from New Jersey like a wave
+         Stat counter animates: "0 states → 38 states 
+         with legal sports betting" counting up fast
+
+  [100%] PIN RELEASES. 
+         Full US map glowing gold holds for a moment.
+         Background bursts briefly to bright white 
+         then settles to charcoal.
+         Betting slip: all lines filled, 
+         "PARLAY WINS" glows in green
+
+===============================================================
+SECTION 8 — Transition Beat (1200vh to 1250vh)
+===============================================================
+
+  Large number slams in and counts up:
+  "$119,000,000,000"
+  Label: "legally wagered in the US since PASPA was struck down"
+  Subtext fades in: "In 5 years, the industry went from 
+  one state to a national market."
+
+===============================================================
+SECTION 9 — PIN: Era 4 — The Modern Era (1250vh–1500vh)
+===============================================================
+LAYOUT: Pinned. Clean, modern, tech-forward aesthetic. 
+Multiple data streams visible. This era feels NOW.
+
+  PIN BEGINS, holds for 250vh
+
+  [0%]   Era label: "ERA 04 / THE PLATFORM WARS"
+         
+         Step 1:
+         Headline: "DraftKings. FanDuel. The app era."
+         Body: "Daily fantasy laid the groundwork. 
+         The moment PASPA fell, the apps were ready. 
+         DraftKings and FanDuel pivot overnight. 
+         Within a year they're running Super Bowl ads."
+         Visual: App store icons animate in — 
+         phone mockup shows a sportsbook interface
+
+  [33%]  Step 2:
+         Headline: "The media companies bet on betting."
+         Body: "ESPN. Fox Bet. Barstool Sportsbook. 
+         The Score. Every media company wants 
+         a piece of the handle. Broadcast rights 
+         and betting rights start to converge."
+         Visual: Media logos appear, lines connecting 
+         them to sportsbook logos — a web of deals
+
+  [66%]  Step 3:
+         Headline: "Data becomes the product."
+         Body: "Real-time official data feeds. 
+         Integrity monitoring. Automated trading. 
+         The infrastructure underneath every bet 
+         placed in America is a data business. 
+         The leagues — who once sued to stop betting — 
+         now have official data partnerships."
+         Visual: A live odds board fills with real-looking 
+         lines, updating in real time animation
+         Genius Sports gold highlight appears again — 
+         stronger this time
+         Betting slip: "OFFICIAL DATA PARTNER" 
+         stamped in gold
+
+  [100%] PIN RELEASES.
+
+===============================================================
+SECTION 10 — Outro / CTA (1500vh–1650vh)
+===============================================================
+LAYOUT: Full viewport. Back to hero energy. Centered.
+
+  [0%]   Headline: "The bet paid off."
+  [20%]  Subhead: "What took a century to legalize 
+         took five years to transform. 
+         The next chapter is being written in real time — 
+         in data feeds, live odds, and the moments 
+         that make fans lean forward."
+  [40%]  Genius Sports brand moment:
+         "Genius Sports sits at the center of it."
+         Logo or wordmark fades in
+  [60%]  Two CTAs stagger in:
+         [See How It Works]  [Talk to Our Team]
+  [80%]  Betting slip (right edge) completes — 
+         all lines filled, ticket marked "WINNER"
+         Subtle confetti or particle burst
+  [100%] Page complete. Odds board in background 
+         flickers: "NEXT ERA   ???"
+
+===============================================================
+PERSISTENT ELEMENTS
+===============================================================
+- Betting slip: right edge, fills progressively with scroll
+- Odds board ticker: top right corner, updates each era
+- Era label: top left, crossfades between eras
+- Scroll progress bar: 2px green line at top of viewport
+- Background particle layer: subtle floating numbers 
+  (-110, +3.5, O/U 47) drifting slowly, low opacity

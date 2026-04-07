@@ -55,7 +55,13 @@ export function InternetHistoryPage() {
   const era1Ref = useRef<HTMLElement | null>(null);
   const era1Steps = useRef<HTMLDivElement[]>([]);
   const era1WirePathRef = useRef<SVGPathElement | null>(null);
-  const era1SilhouetteRefs = useRef<SVGRectElement[]>([]);
+  const era1SilhouetteRefs = useRef<SVGImageElement[]>([]);
+  const era1SilhouetteAssets = [
+    "/src/assets/Il-capo-architetto.svg",
+    "/src/assets/1269851278.svg",
+    "/src/assets/liftarn_Silhouette_of_a_man.svg",
+    "/src/assets/radacina_men_in_black_1.svg",
+  ];
 
   const era2Ref = useRef<HTMLElement | null>(null);
   const era2Steps = useRef<HTMLDivElement[]>([]);
@@ -695,17 +701,18 @@ export function InternetHistoryPage() {
               </text>
               <path ref={era1WirePathRef} d="M62 250 C180 180 250 260 350 220 C410 195 470 245 510 214" stroke={COLORS.green} strokeWidth="3" fill="none" />
               {Array.from({ length: 8 }).map((_, i) => (
-                <rect
+                <image
                   key={i}
                   ref={(element) => {
                     if (element) era1SilhouetteRefs.current[i] = element;
                   }}
-                  x={65 + i * 56}
-                  y="290"
-                  width="24"
-                  height="42"
-                  rx="4"
-                  fill={i === 5 ? COLORS.red : "#857f74"}
+                  href={era1SilhouetteAssets[i % era1SilhouetteAssets.length]}
+                  x={58 + i * 56}
+                  y="270"
+                  width="40"
+                  height="60"
+                  style={{ filter: "brightness(0) invert(1)" }}
+                  preserveAspectRatio="xMidYMid meet"
                 />
               ))}
             </svg>
